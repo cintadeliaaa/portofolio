@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ode Yanuar Rahim</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<style>
+    
+</style>
+<body>
+    <header>
+        <h2>My Portofolio</h2>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#service">SERVICE</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        <img src="img/profil.jpg" alt="">
+    </header>
+    <main>
+        <span style="padding: 40px;" id="home"></span>
+        <div class="intro">
+            <div class="left">
+                <h1 data-aos="fade-right" data-aos-duration="2500">La Ode Yanuar Rahim</h1>
+                <h2 class="typing-wrapper" data-aos="fade" data-aos-duration="2500">saya adalah fullstack developer</h2>
+                <h3 data-aos="fade-left" data-aos-duration="2500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo provident laboriosam fuga maxime similique doloribus ipsum quae, vel delectus minima dicta beatae eligendi, nam voluptates libero vero deleniti quod porro ad minus aut.</h3>
+                <button style="margin-left: 150px;" data-aos="fade-up" data-aos-duration="2500">Selengkapnya</button>
+            </div>
+            <div class="right">
+                <img src="img/profil.jpg" alt="" data-aos="fade-up" data-aos-duration="2500">
+            </div>
+        </div>
+        <span style="padding: 100px;" id="service"></span>
+        <h1 style="text-align: center; margin: 40px; font-size:40px; color: white;" data-aos="zoom-in">SERVICE</h1>
+        <div class="service">
+            <div class="container">
+                <div class="cards" data-aos="fade-up" data-aos-duration="2500">
+                    <div class="card">
+                        <div class="img-card">
+                            <img src="img/html-logo.png">
+                        </div>
+                    <h2>html</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quae!</p>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/css3-logo.png">
+                    </div>
+                    <h2>css</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quae!</p>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/js-logo.png">
+                    </div>
+                    <h2>javascript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quae!</p>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/php-logo.png">
+                    </div>
+                    <h2>php</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, quae!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span style="padding: 50px;" id="about"></span>
+    <div class="intro">
+        <div class="left about">
+            <div class="about-img" data-aos="fade-up" data-aos-duration="2500">
+                <img src="img/about.webp" alt="about">
+            </div>
+        </div>
+        <div class="right about">
+            <h1 data-aos="fade-right" data-aos-duration="2500">about me</h1>
+            <h3 data-aos="fade-left" data-aos-duration="2500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis sed pariatur deleniti commodi necessitatibus facere placeat, numquam perferendis officia? Velit molestiae possimus ea labore exercitationem ratione veritatis excepturi maxime autem.</h3>
+            <button style="margin-left: -100px;" data-aos="fade-right" data-aos-duration="2500">Selengkapnya</button>
+        </div>
+    </div>
+    <span id="contact" style="padding: 80px;"></span>
+    <div class="contact">
+        <h1 data-aos="fade-right" data-aos-duration="2500">hubungi saya</h1>
+        <div class="box-input" data-aos="fade-left" data-aos-duration="2500">
+            <form action="">
+                <label for="namadepan" id="label">nama depan</label>
+                <input type="text" name="namadepan" id="namadepan" placeholder="Masukan Nama Depan" required>
+                <label for="namadepan">nama belakang</label>
+                <input type="text" name="namabelakang" id="namabelakang" placeholder="Masukan Nama Belakang" required>
+                <label for="namadepan">email</label>
+                <input type="email" name="email" id="email" placeholder="Masukan Email" required>
+                <label for="namadepan">pesan</label>
+                <textarea name="pesan" id="pesan" rows="5" placeholder="Masukan Pesan" required></textarea>
+                <button type="submit" class="contact" style="width: 250px; margin-bottom: 20px;">kirim</button>
+            </form>
+        </div>
+    </div>
+    </main>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
